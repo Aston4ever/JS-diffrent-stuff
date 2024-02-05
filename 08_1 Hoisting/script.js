@@ -8,8 +8,8 @@ let job = 'teacher';
 const year = 1991;
 
 console.log(add(2,3))
-console.log(addExpr(2,3))
-console.log(arrow(2,3))
+// console.log(addExpr(2,3))
+// console.log(arrow(2,3))
 
 function add(a, b) {
     return a + b;
@@ -20,3 +20,11 @@ const addExpr = function (a, b) {
 }
 
 const arrow = (a, b)=> a + b;
+
+if (!numProducts) deleteShoppingCart();
+console.log(numProducts)
+var numProducts = 10;
+
+function deleteShoppingCart() {
+    console.log('All product deleted')
+}
